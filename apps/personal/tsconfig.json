@@ -1,5 +1,5 @@
 {
-  "extends": "@repo/typescript-config/nextjs.json",
+  "extends": "@bwittenberg/typescript-config/nextjs.json",
   "compilerOptions": {
     "noImplicitAny": false,
     "strictNullChecks": false,
