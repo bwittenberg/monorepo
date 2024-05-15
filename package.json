@@ -14,11 +14,11 @@
     "turbo": "latest"
   },
   "engines": {
-    "node": ">=18"
+    "node": "22.1.0"
   },
-  "packageManager": "yarn@1.22.22",
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "packageManager": "yarn@4.2.2"
 }
