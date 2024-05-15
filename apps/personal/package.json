@@ -13,7 +13,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@bwittenberg/typescript-config": "*",
+    "@bwittenberg/typescript-config": "workspace:*",
     "@types/react": "^18.2.62",
     "@types/react-dom": "^18.2.19",
     "@vanilla-extract/css": "1.15.1",
