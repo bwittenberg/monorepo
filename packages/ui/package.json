@@ -7,7 +7,9 @@
   "source": "src/index.ts",
   "types": "dist/types.d.ts",
   "module": "dist/module.js",
-  "main": "dist/main.js",
+  "exports": {
+    ".": "./dist/module.js"
+  },
   "scripts": {
     "build": "parcel build",
     "typeCheck": "tsc"
