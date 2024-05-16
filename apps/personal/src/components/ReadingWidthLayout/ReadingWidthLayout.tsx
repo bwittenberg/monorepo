@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { container } from "./styles.css";
+import { container } from "./ReadingWidthLayout.css";
 
 type Props = {
   children: ReactNode;
