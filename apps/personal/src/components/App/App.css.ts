@@ -1,8 +1,8 @@
 import { style } from "@vanilla-extract/css";
-import { geistThin } from "../Fonts/Geist";
+import { geistUltraLight } from "../Fonts/Geist";
 
 export const styles = style({
-  fontFamily: geistThin,
+  fontFamily: geistUltraLight,
   display: "flex",
   alignItems: "center",
   justifyContent: "center",

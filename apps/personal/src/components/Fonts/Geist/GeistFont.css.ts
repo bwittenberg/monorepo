@@ -1,11 +1,11 @@
 import { fontFace } from "@vanilla-extract/css";
-import regular from "./Geist-Bold.woff2";
-import thin from "./Geist-UltraLight.woff2";
+import bold from "./Geist-Bold.woff2";
+import ultraLight from "./Geist-UltraLight.woff2";
 
-export const geistRegular = fontFace({
-  src: `url(${regular})`,
+export const geistBold = fontFace({
+  src: `url(${bold})`,
 });
 
-export const geistThin = fontFace({
-  src: `url(${thin})`,
+export const geistUltraLight = fontFace({
+  src: `url(${ultraLight})`,
 });
