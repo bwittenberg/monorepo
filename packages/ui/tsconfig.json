@@ -1,0 +1,9 @@
+{
+  "extends": "@bwittenberg/typescript-config/base.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "jsx": "react-jsx",
+    "lib": ["dom", "dom.iterable", "esnext"]
+  },
+  "exclude": ["node_modules"]
+}
