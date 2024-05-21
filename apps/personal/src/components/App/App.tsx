@@ -1,21 +1,13 @@
+import { Home } from "../../pages/Home";
 import { styles } from "./App.css";
-import { ReadingWidthLayout } from "../ReadingWidthLayout/ReadingWidthLayout";
-import { Footer } from "../Footer";
-import { Link } from "../Footer/Link";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([{ path: "/", element: <Home /> }]);
 
 export const App = () => {
   return (
     <div className={styles}>
-      <ReadingWidthLayout>
-        <h1>Ben Wittenberg</h1>
-        <p>👋 Hello World.</p>
-        <Footer>
-          <Link href="https://github.com/bwittenberg/">GitHub</Link>
-          <Link href="https://www.linkedin.com/in/benjamin-wittenberg/">
-            LinkedIn
-          </Link>
-        </Footer>
-      </ReadingWidthLayout>
+      <RouterProvider router={router} />
     </div>
   );
 };
