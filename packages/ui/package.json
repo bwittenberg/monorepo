@@ -5,22 +5,16 @@
   "type": "module",
   "license": "MIT",
   "source": "src/index.ts",
-  "types": "dist/types.d.ts",
-  "module": "dist/module.js",
-  "exports": {
-    ".": {
-      "import": {
-        "types": "./dist/types.d.ts",
-        "default": "./dist/module.js"
-      }
-    }
-  },
+  "module": "./src/index.ts",
   "scripts": {
-    "build": "parcel build",
     "typeCheck": "tsc"
   },
   "dependencies": {
-    "marked": "^12.0.2",
+    "@radix-ui/react-avatar": "^1.0.4",
+    "@vanilla-extract/css": "1.15.1",
+    "marked": "^12.0.2"
+  },
+  "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -28,8 +22,6 @@
     "@bwittenberg/typescript-config": "workspace:*",
     "@types/react": "^18.2.62",
     "@types/react-dom": "^18.2.19",
-    "@vanilla-extract/css": "1.15.1",
-    "parcel": "^2.12.0",
     "typescript": "^5.3.3"
   }
 }

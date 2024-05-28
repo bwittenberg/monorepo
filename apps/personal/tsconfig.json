@@ -2,6 +2,7 @@
   "exclude": ["node_modules"],
   "extends": "@bwittenberg/typescript-config/vite.json",
   "compilerOptions": {
+    "baseUrl": "src",
     "rootDir": ".",
     "outDir": "dist"
   },
